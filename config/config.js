@@ -25,7 +25,7 @@ var config = {
 
         {
             module: 'currentweather',
-            position: 'top_right',
+            position: 'top_left',
             config: {
                 location: 'Konstanz,Germany',
                 appid: '097e3865c82a1bc8856be39eca1c8943'
@@ -33,40 +33,23 @@ var config = {
         },
 
 
-        {
-            module: 'newsfeed',
-            position: 'top_left',
-            config: {
-                feeds: [
-                    {
-                        title: "Spiegel Online",
-                        url: "http://www.spiegel.de/schlagzeilen/tops/index.rss"
-                    }
-                ],
-                showDescription: true,
-                showSourceTitle: true,
-                showPublishDate: false,
-                updateInterval: 25 * 1000,
-            }
-        },
+ //       {
+   //         module: 'newsfeed',
+    //        position: 'top_left',
+     //       config: {
+      //          feeds: [
+       //             {
+       //                 title: "Spiegel Online",
+       //                 url: "http://www.spiegel.de/schlagzeilen/tops/index.rss"
+        //            }
+         //       ],
+          //      showDescription: true,
+           //     showSourceTitle: true,
+            //    showPublishDate: false,
+             //   updateInterval: 25 * 1000,
+//            }
+//        },
 
-
-        {
-            module: 'newsfeed',
-            position: 'top_left',
-            config: {
-                feeds: [
-                    {
-                        title: "MacTechNews",
-                        url: "http://www.mactechnews.de/Rss/News.x"
-                    }
-                ],
-                showDescription: true,
-                showSourceTitle: true,
-                showPublishDate: false,
-                updateInterval: 25 * 1000,
-            }
-        },
 
 
     ]
