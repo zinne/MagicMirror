@@ -22,7 +22,6 @@ var config = {
             },
         },
 
-
         {
             module: 'currentweather',
             position: 'top_left',
@@ -32,25 +31,40 @@ var config = {
             }
         },
 
+        {
+            module: 'newsfeed',
+            position: 'top_left',
+            config: {
+                feeds: [
+                    {
+                        title: "Spiegel Online",
+                        url: "http://www.spiegel.de/schlagzeilen/tops/index.rss",
+                    },
 
- //       {
-   //         module: 'newsfeed',
-    //        position: 'top_left',
-     //       config: {
-      //          feeds: [
-       //             {
-       //                 title: "Spiegel Online",
-       //                 url: "http://www.spiegel.de/schlagzeilen/tops/index.rss"
-        //            }
-         //       ],
-          //      showDescription: true,
-           //     showSourceTitle: true,
-            //    showPublishDate: false,
-             //   updateInterval: 25 * 1000,
-//            }
-//        },
+                ],
+                showDescription: false,
+                showSourceTitle: true,
+                showPublishDate: false,
+                updateInterval: 10 * 1000,
+            }
+        },
 
-
+        {
+            module: 'newsfeed',
+            position: 'top_left',
+            config: {
+                feeds: [
+                    {
+                        title: "MacTech News",
+                        url: "http://www.mactechnews.de/Rss/News.x",
+                    },
+                ],
+                showDescription: false,
+                showSourceTitle: true,
+                showPublishDate: false,
+                updateInterval: 10 * 1000,
+            }
+        },
 
     ]
 

@@ -154,7 +154,7 @@ Module.register("newsfeed", {
             }
 
             var title = document.createElement("div");
-            title.className = "bright medium light";
+            title.className = "bright medium ";
             title.innerHTML = this.newsItems[this.activeItem].title;
             wrapper.appendChild(title);
 
