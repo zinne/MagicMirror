@@ -1,11 +1,16 @@
-
 .newsfeed {
-    /*margin-top: 200px;*/
-    /*margin-bottom: -100px;*/
     width: 50%;
 }
 
 .newsfeed .small {
     font-size: 20px;
     line-height: 25px;
+}
+
+.calendar table {
+    width: 60%;
+}
+
+.calendar td.time {
+    text-align: left;
 }

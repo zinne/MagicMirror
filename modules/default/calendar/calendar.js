@@ -207,7 +207,7 @@ Module.register("calendar", {
             // This event is within the next 48 hours (2 days)
             if (event.startDate - now < this.config.getRelative * oneHour) {
               // If event is within 6 hour, display 'in xxx' time format or moment.fromNow()
-              timeWrapper.innerHTML = this.capFirst(moment(event.startDate, "x").fromNow());
+              timeWrapper.innerHTML = moment(event.startDate, "x").format("HH:mm") + ' Uhr';
             } else {
               // Otherwise just say 'Today/Tomorrow at such-n-such time'
               timeWrapper.innerHTML = this.capFirst(moment(event.startDate, "x").calendar());
