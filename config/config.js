@@ -35,7 +35,7 @@ var config = {
       position: 'top_left',   // This can be any of the regions. Best results in left or right regions.
       config: {
         fade: false,
-        maximumNumberOfDays: 1,
+        maximumNumberOfDays: 2,
         calendars: [
           {
 
