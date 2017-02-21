@@ -1,5 +1,5 @@
 .newsfeed {
-    width: 50%;
+    width: 460px;
 }
 
 .newsfeed .small {
@@ -8,7 +8,7 @@
 }
 
 .calendar table {
-    width: 60%;
+    width: 600px;
 }
 
 .calendar td.time {
