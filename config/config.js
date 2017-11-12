@@ -21,14 +21,14 @@ var config = {
         displaySeconds: false,
       },
     },
-    {
-      module: "MMM-EyeCandy",
-      position: "top_right",
-      config: {
-        
-        ownImagePath: 'http://78.media.tumblr.com/tumblr_m8ejztnqJi1qzt4vjo1_500.gif',      // ex: 'modules/MMM-EyeCandy/pix/YOUR_PICTURE_NAME.jpg', or internet url to image
-      }
-    },
+    // {
+    //   module: "MMM-EyeCandy",
+    //   position: "top_right",
+    //   config: {
+
+    //     ownImagePath: 'http://78.media.tumblr.com/tumblr_m8ejztnqJi1qzt4vjo1_500.gif',      // ex: 'modules/MMM-EyeCandy/pix/YOUR_PICTURE_NAME.jpg', or internet url to image
+    //   }
+    // },
     {
       module: 'currentweather',
       position: 'top_left',
