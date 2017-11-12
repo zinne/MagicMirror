@@ -29,7 +29,7 @@ Module.register("weatherforecast",{
 
 		apiVersion: "2.5",
 		apiBase: "http://api.openweathermap.org/data/",
-		forecastEndpoint: "forecast/daily",
+		forecastEndpoint: "forecast/",
 
 		appendLocationNameToHeader: true,
 		calendarClass: "calendar",

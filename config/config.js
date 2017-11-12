@@ -21,7 +21,14 @@ var config = {
         displaySeconds: false,
       },
     },
-
+    {
+      module: "MMM-EyeCandy",
+      position: "top_right",
+      config: {
+        
+        ownImagePath: 'http://78.media.tumblr.com/tumblr_m8ejztnqJi1qzt4vjo1_500.gif',      // ex: 'modules/MMM-EyeCandy/pix/YOUR_PICTURE_NAME.jpg', or internet url to image
+      }
+    },
     {
       module: 'currentweather',
       position: 'top_left',
@@ -42,6 +49,10 @@ var config = {
             url: 'https://calendar.google.com/calendar/ical/thomas.zinnbauer%40ymc.ch/private-ff5b71ee330f383fca4711a7eb9bbc39/basic.ics',
             symbol: 'calendar',
 
+          },
+          {
+            url: 'webcal://p06-calendarws.icloud.com/ca/subscribe/1/lo0-rwp78amyuiuOamMktlu4aNngALiCuyvJhShE97QHwSIGc7ytL58Z7keTIWTi-mDDzSyDL_1JjtVlYmaVdVg9k62n8BGDAsUiFyGNuO8',
+            symbol: 'calendar'
           },
         ],
       }
@@ -64,22 +75,22 @@ var config = {
       }
     },
 
-     {
-       module: 'newsfeed',
-       position: 'top_left',
-       config: {
-         feeds: [
-           {
-           title: "MacTech News",
-             url: "http://www.mactechnews.de/Rss/News.x",
-           },
-         ],
-         showDescription: false,
-         showSourceTitle: true,
-         showPublishDate: true,
-         updateInterval: 10 * 1000,
-       }
-     },
+    {
+      module: 'newsfeed',
+      position: 'top_left',
+      config: {
+        feeds: [
+          {
+            title: "MacTech News",
+            url: "http://www.mactechnews.de/Rss/News.x",
+          },
+        ],
+        showDescription: false,
+        showSourceTitle: true,
+        showPublishDate: true,
+        updateInterval: 10 * 1000,
+      }
+    },
 
   ]
 
