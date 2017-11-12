@@ -59,27 +59,27 @@ var config = {
         ],
         showDescription: false,
         showSourceTitle: true,
-        showPublishDate: false,
+        showPublishDate: true,
         updateInterval: 10 * 1000,
       }
     },
 
-    // {
-    //   module: 'newsfeed',
-    //   position: 'top_left',
-    //   config: {
-    //     feeds: [
-    //       {
-    //         title: "MacTech News",
-    //         url: "http://www.mactechnews.de/Rss/News.x",
-    //       },
-    //     ],
-    //     showDescription: false,
-    //     showSourceTitle: true,
-    //     showPublishDate: false,
-    //     updateInterval: 10 * 1000,
-    //   }
-    // },
+     {
+       module: 'newsfeed',
+       position: 'top_left',
+       config: {
+         feeds: [
+           {
+           title: "MacTech News",
+             url: "http://www.mactechnews.de/Rss/News.x",
+           },
+         ],
+         showDescription: false,
+         showSourceTitle: true,
+         showPublishDate: true,
+         updateInterval: 10 * 1000,
+       }
+     },
 
   ]
 
